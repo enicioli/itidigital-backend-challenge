@@ -1,0 +1,21 @@
+{
+  "name": "itidigital-backend-challenge",
+  "version": "1.0.0",
+  "description": "Solution for https://github.com/itidigital/backend-challenge",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "NODE_ENV=test npx mocha test/*"
+  },
+  "keywords": [],
+  "author": "Eduardo Nicioli",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.1"
+  }
+}
